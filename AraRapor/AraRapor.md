@@ -25,39 +25,28 @@ Proje, sensör verilerini toplamak ve işlemek için aşağıdaki yöntemleri ku
 ### Görseller
 Aşağıda kullanılan sensörlerin ve bağlantıların görselleri yer almaktadır:
 
-- **DHT22 Sensörü**  
-  ![DHT22 Sensörü](DHT22.jpg)  
+### Görseller
+| Sensör / Cihaz | Görsel | 
+|----------------|--------|
+| **DHT22 Sensörü** | ![DHT22 Sensörü](Figure/DHT22.jpg) | 
+| **CCS811 Sensörü** | ![CCS811 Sensörü](Figure/CCS811.jpg) | 
+| **PMS5003 Sensörü** | ![PMS5003 Sensörü](Figure/PMS5003.jpg) | 
+| **ESP32 Mikrodenetleyici** | ![ESP32](Figure/ESP_WROOM_32.jpg) | 
+| **Jumper Kabloları (Dişi-Erkek)** | ![Jumper Dişi-Erkek](Figure/Jumper-fm.jpg) | 
+| **Jumper Kabloları (Erkek-Erkek)** | ![Jumper Erkek-Erkek](Figure/Jumper-mm.jpg) | 
+| **BreadBoard** | ![BreadBoard](Figure/BreadBoard.jpg) | 
+| **Bağlantılar** | ![Bağlantılar](Figure/connections.png) | 
 
-- **CCS811 Sensörü**  
-  ![CCS811 Sensörü](CCS811.jpg)  
 
-- **PMS5003 Sensörü**  
-  ![PMS5003 Sensörü](PMS5003.jpg)  
-
-- **ESP32 Mikrodenetleyici**  
-  ![ESP32](ESP_WROOM_32.jpg)  
-
-  - **Jumper Kabloları**  
-  ![Jumper Dişi-Erkek](Jumper-fm.jpg)  
-  ![Jumper Erkek-Erkek](Jumper-mm.jpg)  
-
-- **BreadBoard**  
-  ![BreadBoard](BreadBoard.jpg)  
-
-  - **Bağlantılar**  
-  ![Bağlantılar](connections.png)  
 
 ## 5. Elde Edilen Sonuçlar
 
 ### Görseller
 Aşağıda kullanılan Blynk Web/Mobil ve Serial Monitör üzerinden alınan sonuçlar paylaşılmıştır:
 
-  - **Blynk**  
-  ![Blynk Mobil](blynk_mobile)  
-  ![Blynk Web](blynk_web.png)  
-
-- **Serial Monitör**  
-  ![Serial Monitör](serial_monitor.png)  
+| **Blynk Mobil** | ![Blynk Mobil](Figure/blynk_mobile.jpg) | 
+| **Blynk Web** | ![Blynk Web](Figure/blynk_web.png) | 
+| **Serial Monitör** | ![Serial Monitör](Figure/serial_monitor.png) |
 
 
 - **Sensörlerden alınan veriler doğru şekilde elde edilmiştir.**
@@ -89,19 +78,22 @@ Bu proje, hava kalitesini takip etmek isteyen bireyler, kamu kurumları ve işle
 - Akıllı şehir projeleri ve çevre izleme sistemleri  
 
 ## 9. Dosya Yapısı
+```
 AraRapor/
-│── AraRapor.md
-│── Figure/
-│   ├── BreadBoard.jpg
-│   ├── CCS811.jpg
-│   ├── DHT22.jpg
-│   ├── ESP_WROOM_32.jpg
-│   ├── Jumper-fm.jpg
-│   ├── Jumper-mm.jpg
-│   ├── PMS5003.jpg
-│   ├── connections.png
-│   ├── serial_monitor.png
-│   ├── Connections2.jpg
-│   ├── blynk_web.png
-│   ├── blynk_mobile.jpg
+│
+├── AraRapor.md
+└── Figure/
+    ├── blynk_mobile.jpg
+    ├── blynk_web.png
+    ├── BreadBoard.jpg
+    ├── CCS811.jpg
+    ├── DHT22.jpg
+    ├── ESP_WROOM_32.jpg
+    ├── connections.png
+    ├── Connections2.jpg
+    ├── Jumper-fm.jpg
+    ├── Jumper-mm.jpg
+    ├── PMS5003.jpg
+    └── serial_monitor.png
 
+```
