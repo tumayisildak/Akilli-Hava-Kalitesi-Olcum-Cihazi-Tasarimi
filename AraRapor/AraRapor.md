@@ -42,12 +42,10 @@ Proje, sensör verilerini toplamak ve işlemek için aşağıdaki yöntemleri ku
 ### Görseller
 Aşağıda kullanılan Blynk Web/Mobil ve Serial Monitör üzerinden alınan sonuçlar paylaşılmıştır:
 
-| **Blynk Mobil** |
-
- <img src="Figure/blynk_mobile.jpg" width="300" height="600" style="vertical-align: middle;" /> |
-
+| **Blynk Mobil** | <img src="Figure/blynk_mobile.jpg" width="300" height="300" style="vertical-align: middle;" /> |
 | **Blynk Web** | <img src="Figure/blynk_web.png" width="600" height="300" style="vertical-align: middle;" /> |
 | **Serial Monitör** | <img src="Figure/serial_monitor.png" width="600" height="300" style="vertical-align: middle;" /> |
+
 
 
 
