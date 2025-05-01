@@ -23,19 +23,17 @@ Proje, sensör verilerini toplamak ve işlemek için aşağıdaki yöntemleri ku
 - ESP32 ile sensörler birbirine bağlanmış ve Blynk platformuna veri gönderimi yapılmıştır.
 
 ### Görseller
-Aşağıda kullanılan sensörlerin ve bağlantıların görselleri yer almaktadır:
-
-### Görseller
 | Sensör / Cihaz | Görsel | 
 |----------------|--------|
-| **DHT22 Sensörü** | ![DHT22 Sensörü](Figure/DHT22.jpg) | 
-| **CCS811 Sensörü** | ![CCS811 Sensörü](Figure/CCS811.jpg) | 
-| **PMS5003 Sensörü** | ![PMS5003 Sensörü](Figure/PMS5003.jpg) | 
-| **ESP32 Mikrodenetleyici** | ![ESP32](Figure/ESP_WROOM_32.jpg) | 
-| **Jumper Kabloları (Dişi-Erkek)** | ![Jumper Dişi-Erkek](Figure/Jumper-fm.jpg) | 
-| **Jumper Kabloları (Erkek-Erkek)** | ![Jumper Erkek-Erkek](Figure/Jumper-mm.jpg) | 
-| **BreadBoard** | ![BreadBoard](Figure/BreadBoard.jpg) | 
-| **Bağlantılar** | ![Bağlantılar](Figure/connections.png) | 
+| **DHT22 Sensörü** | <img src="Figure/DHT22.jpg" width="200" height="200" /> | 
+| **CCS811 Sensörü** | <img src="Figure/CCS811.jpg" width="200" height="200" /> | 
+| **PMS5003 Sensörü** | <img src="Figure/PMS5003.jpg" width="200" height="200" /> | 
+| **ESP32 Mikrodenetleyici** | <img src="Figure/ESP_WROOM_32.jpg" width="200" height="200" /> | 
+| **Jumper Kabloları (Dişi-Erkek)** | <img src="Figure/Jumper-fm.jpg" width="200" height="200" /> | 
+| **Jumper Kabloları (Erkek-Erkek)** | <img src="Figure/Jumper-mm.jpg" width="200" height="200" /> | 
+| **BreadBoard** | <img src="Figure/BreadBoard.jpg" width="200" height="200" /> | 
+| **Bağlantılar** | <img src="Figure/connections.png" width="200" height="200" /> |
+
 
 
 
@@ -44,9 +42,14 @@ Aşağıda kullanılan sensörlerin ve bağlantıların görselleri yer almaktad
 ### Görseller
 Aşağıda kullanılan Blynk Web/Mobil ve Serial Monitör üzerinden alınan sonuçlar paylaşılmıştır:
 
-| **Blynk Mobil** | ![Blynk Mobil](Figure/blynk_mobile.jpg) | 
-| **Blynk Web** | ![Blynk Web](Figure/blynk_web.png) | 
-| **Serial Monitör** | ![Serial Monitör](Figure/serial_monitor.png) |
+| **Blynk Mobil** |
+
+ <img src="Figure/blynk_mobile.jpg" width="300" height="600" style="vertical-align: middle;" /> |
+
+| **Blynk Web** | <img src="Figure/blynk_web.png" width="600" height="300" style="vertical-align: middle;" /> |
+| **Serial Monitör** | <img src="Figure/serial_monitor.png" width="600" height="300" style="vertical-align: middle;" /> |
+
+
 
 
 - **Sensörlerden alınan veriler doğru şekilde elde edilmiştir.**
