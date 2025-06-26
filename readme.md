@@ -23,28 +23,28 @@ Bu projeyi çalıştırabilmek için aşağıdaki donanım ve yazılımlara ihti
 
 ### Yazılım Gereksinimleri  
 - **Arduino IDE** (ESP32 için)  
-- **Platform SDK** (Örneğin: Blynk, Firebase vb.)  
-- **Gerekli Kütüphaneler** (Arduino için: `Adafruit_Sensor`, `DHT`, `WiFiClient`)  
+- **Platform SDK** (Örneğin: Thingspeak vb.)  
+- **Gerekli Kütüphaneler** (Arduino için: `Adafruit_Sensor`, `DHT`, `WiFiClient`,`HTTPClient`)  
 
 ---
 
 ## 🚀 Projeyi Çalıştırma  
 1. **Bağlantıları Yapın**  
    - Sensörleri ESP32'ye bağlayın.  
-   - Wi-Fi veya Bluetooth ile bağlantıyı test edin.  
+   - Wi-Fi ile bağlantıyı test edin.  
 
 2. **Yazılım Kurulumu**  
    - Arduino IDE’ye ESP32 kart desteğini ekleyin.  
    - Gerekli kütüphaneleri yükleyin.  
-   - `config.h` dosyasına Wi-Fi bilgilerinizi girin.  
+   - Dosyada bulunan sansürlü yerleri kendinize uygun bilgilerle doldurun.  
 
 3. **ESP32’ye Kodu Yükleyin**  
-   - `main.ino` dosyasını ESP32’ye yükleyin.  
+   - Kodu ESP32’ye yükleyin.  
    - Seri monitörden hata ayıklayın.  
 
 4. **Veri Gönderimi ve Görselleştirme**  
-   - Verileri bir platforma gönderin (Örn: Blynk, Firebase).  
-   - Mobil veya web uygulaması ile verileri görüntüleyin.  
+   - Verileri bir platforma gönderin (Örn: ThingSpeak).  
+   - Wweb uygulaması ile verileri görüntüleyin.  
 
 ---
 
@@ -54,6 +54,6 @@ Bu proje [MIT Lisansı](LICENSE) kapsamında dağıtılmaktadır. Kullanım ve d
 ---
 
 ## 🔍 Proje Anahtar Kelimeleri  
-`ESP32`, `Hava Kalitesi`, `IoT`, `Sensör`, `Blynk`, `Wi-Fi`, `Bluetooth`, `CO2`, `VOC`, `PM2.5`, `Akıllı Cihaz`, `Nem ve Sıcaklık`  
+`ESP32`, `Hava Kalitesi`, `IoT`, `Sensör`, `ThingSpeak`, `Wi-Fi`, `CO2`, `VOC`, `PM2.5`, `Akıllı Cihaz`, `Nem ve Sıcaklık`  
 
 ---
